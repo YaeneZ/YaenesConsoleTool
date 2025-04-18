@@ -1,4 +1,39 @@
+using System.Reflection;
+
 namespace YCT.Color;
+
+// 3 bit
+// 4 bit
+// 8 bit
+// 24 bit -> default
+public class YColor3
+{
+    public byte color;
+}
+
+public class YColor4
+{
+    public byte color;
+}
+
+public class YColor8
+{
+    public byte color;
+}
+
+public class YColor
+{
+    public byte Red;
+    public byte Green;
+    public byte Blue;
+
+    public YColor(byte red, byte green, byte blue)
+    {
+        Red = red;
+        Green = green;
+        Blue = blue;
+    }
+}
 
 // std FG/BG
 public static class ColorCode
@@ -29,6 +64,27 @@ public static class ColorCode
             public const int White = 47;
         }
 
+        public static readonly int[] Map = initMap();
+
+        private static int[] initMap()
+        {
+            var fgFields = typeof(ColorCode.Ansi3.Foreground)
+                .GetFields(BindingFlags.Public | BindingFlags.Static)
+                .OrderBy(f => f.MetadataToken)
+                .Select(f => (int)f.GetRawConstantValue());
+
+            var bgFields = typeof(ColorCode.Ansi3.Background)
+                .GetFields(BindingFlags.Public | BindingFlags.Static)
+                .OrderBy(f => f.MetadataToken)
+                .Select(f => (int)f.GetRawConstantValue());
+
+            return fgFields.Concat(bgFields).ToArray();
+        }
+
+        public static int FromYColor3(YColor3 color)
+        {
+            return Map[color.color];
+        }
     }
 
     public static class Ansi4

@@ -1,0 +1,15 @@
+/home/yaene/learnVim/cs/yaenesConsoleTool/bin/Debug/net8.0/yaenesConsoleTool
+/home/yaene/learnVim/cs/yaenesConsoleTool/bin/Debug/net8.0/yaenesConsoleTool.deps.json
+/home/yaene/learnVim/cs/yaenesConsoleTool/bin/Debug/net8.0/yaenesConsoleTool.runtimeconfig.json
+/home/yaene/learnVim/cs/yaenesConsoleTool/bin/Debug/net8.0/yaenesConsoleTool.dll
+/home/yaene/learnVim/cs/yaenesConsoleTool/bin/Debug/net8.0/yaenesConsoleTool.pdb
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.GeneratedMSBuildEditorConfig.editorconfig
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.AssemblyInfoInputs.cache
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.AssemblyInfo.cs
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.csproj.CoreCompileInputs.cache
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.sourcelink.json
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.dll
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/refint/yaenesConsoleTool.dll
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.pdb
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/yaenesConsoleTool.genruntimeconfig.cache
+/home/yaene/learnVim/cs/yaenesConsoleTool/obj/Debug/net8.0/ref/yaenesConsoleTool.dll

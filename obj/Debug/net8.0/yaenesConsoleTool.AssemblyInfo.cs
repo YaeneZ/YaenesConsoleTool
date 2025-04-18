@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yaenesConsoleTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+193bef85a425279fe896c98e6ea05eab37954e09")]
 [assembly: System.Reflection.AssemblyProductAttribute("yaenesConsoleTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yaenesConsoleTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,7 @@
 ﻿using YCT.Style;
+using YCT.Color;
 
-Console.WriteLine($"{Style.ColorCode.Ansi8.Standard.Yellow}");
+foreach (int i in ColorCode.Ansi3.Map)
+{
+    Console.Write($"\x1b[{i}mHello\x1b[0m ");
+}
