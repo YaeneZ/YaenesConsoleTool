@@ -1,7 +1,19 @@
 ﻿using YCT.Style;
 using YCT.Color;
 
-foreach (int i in ColorCode.Ansi3.Map)
-{
-    Console.Write($"\x1b[{i}mHello\x1b[0m ");
-}
+Style style = new();
+YColor color = YColor.Lime;
+style.SetTextColor(color);
+
+style.Apply();
+Console.WriteLine("Hello");
+style.ResetStyle();
+
+Style.ApplyTextColor(YColor.BlueViolet);
+Console.WriteLine("Test");
+Style.ApplyBackgroundColor(YColor.Maroon);
+Console.WriteLine("Test");
+Style.Reset();
+
+YColor8 color8 = new();
+ColorCode.Ansi8.RGB(0, 255, 0);
